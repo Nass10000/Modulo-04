@@ -1,3 +1,59 @@
+# API REST para E-Commerce – Módulo 4 (NestJS)
+
+Este proyecto es una **API REST completa** desarrollada con **NestJS**. El objetivo es desarrollar el backend de una tienda virtual tipo e-commerce, como parte de un módulo de formación en desarrollo backend avanzado. Ofrece funcionalidades como registro de usuarios, autenticación, administración de productos, pedidos y categorías.
+
+---
+
+## 🎯 ¿De qué trata este proyecto?
+
+Esta API permite:
+
+- Registrar y autenticar usuarios mediante JWT.
+- Gestionar productos con campos como nombre, descripción, precio, stock e imagen.
+- Crear y consultar órdenes y detalles de pedido.
+- Administrar categorías de productos.
+- Validaciones automáticas con pipes de NestJS.
+- Documentación con Swagger.
+- Separación modular para facilitar la escalabilidad y el mantenimiento.
+
+---
+
+## 🧠 Tecnologías utilizadas
+
+- **NestJS** – Framework backend basado en Node.js.
+- **TypeScript** – Tipado estricto para mayor robustez.
+- **JWT** – Para autenticación de usuarios.
+- **Swagger** – Para documentación interactiva de la API.
+- **TypeORM** – Para mapeo objeto-relacional con **PostgreSQL**.
+- **dotenv** – Manejo de variables de entorno.
+- **Jest** – Testing end-to-end automatizado con Supertest.
+
+---
+
+## 📁 Módulos principales
+
+- `UsersModule` – Registro y gestión de usuarios.
+- `AuthModule` – Login y generación de tokens JWT.
+- `ProductsModule` – CRUD de productos.
+- `CategoriesModule` – Clasificación de productos.
+- `OrdersModule` – Creación y seguimiento de pedidos.
+- `OrderDetailsModule` – Manejo de detalles individuales por pedido.
+- `FilesModule` – Gestión de archivos e imágenes.
+
+---
+
+## 🧪 Scripts disponibles
+
+```bash
+npm install         # Instala las dependencias
+npm run start:dev   # Inicia el servidor en modo desarrollo
+npm run test:e2e    # Ejecuta pruebas end-to-end con Jest y Supertest
+
+
+
+
+
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>
