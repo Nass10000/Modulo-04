@@ -27,7 +27,7 @@ Esta API permite:
 - **TypeORM** – Para mapeo objeto-relacional con **PostgreSQL**.
 - **dotenv** – Manejo de variables de entorno.
 - **Jest** – Testing end-to-end automatizado con Supertest.
-
+-**entre otras tecnologías**
 ---
 
 ## 📁 Módulos principales
